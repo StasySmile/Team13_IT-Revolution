@@ -24,31 +24,52 @@
     <div class="container">
       <div class="new-object-form">
         <h1>Додайте новий об'єкт нерухомості:</h1>
-        <form>
+        <form id="newForm">
           <div>
-            <label for="imputObjectName">Назва об'єкту</label>
-            <input type="text" class="form-control" id="imputObjectName" />
+            <label for="inputAdress" class="form-label">Адреса</label>
+            <input
+              type="text"
+              name="adress"
+              class="form-control input-display"
+              id="inputAdress"
+            />
           </div>
           <div>
-            <label for="imputAdress" class="form-label">Адреса</label>
-            <input type="text" class="form-control" id="imputAdress" />
-          </div>
-          <div>
-            <label for="inputSquareArea" class="form-label">Площа</label>
-            <input type="text" class="form-control" id="inputSquareArea" />
+            <label for="inputArea" class="form-label">Площа</label>
+            <input
+              type="text"
+              name="area"
+              class="form-control input-display"
+              id="inputArea"
+            />
           </div>
           <div>
             <label for="inputRooms" class="form-label">Кількість кімнат</label>
-            <input type="text" class="form-control" id="inputRooms" />
+            <input
+              type="text"
+              name="rooms"
+              class="form-control input-display"
+              id="inputRooms"
+            />
           </div>
           <div>
             <label for="inputPrice" class="form-label">Ціна</label>
-            <input type="text" class="form-control" id="inputPrice" />
+            <input
+              type="text"
+              name="price"
+              class="form-control input-display"
+              id="inputPrice"
+            />
           </div>
 
           <div>
             <label for="inputNotes" class="form-label">Примітки</label>
-            <input type="text" class="form-control" id="inputNotes" />
+            <input
+              type="text"
+              name="notes"
+              class="form-control input-display"
+              id="inputNotes"
+            />
           </div>
 
           <div>
@@ -66,5 +87,6 @@
         </form>
       </div>
     </div>
+    <script src="/src/index.js"></script>
   </body>
 </html>
