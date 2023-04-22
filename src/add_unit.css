@@ -1,0 +1,14 @@
+.new-object-form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+}
+.submit-button {
+  font-size: 1rem;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

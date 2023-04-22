@@ -4,7 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/add_unit.css" />
     <title>Додати нерухомість</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="page-name">Додати нерухомість</div>
+        <div class="link"><a href="/my_account.html">Мій кабінет</a></div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="new-object-form">
+        <h1>Додайте новий об'єкт нерухомості:</h1>
+        <form>
+          <div>
+            <label for="imputObjectName">Назва об'єкту</label>
+            <input type="text" class="form-control" id="imputObjectName" />
+          </div>
+          <div>
+            <label for="imputAdress" class="form-label">Адреса</label>
+            <input type="text" class="form-control" id="imputAdress" />
+          </div>
+          <div>
+            <label for="inputSquareArea" class="form-label">Площа</label>
+            <input type="text" class="form-control" id="inputSquareArea" />
+          </div>
+          <div>
+            <label for="inputRooms" class="form-label">Кількість кімнат</label>
+            <input type="text" class="form-control" id="inputRooms" />
+          </div>
+          <div>
+            <label for="inputPrice" class="form-label">Ціна</label>
+            <input type="text" class="form-control" id="inputPrice" />
+          </div>
+
+          <div>
+            <label for="inputNotes" class="form-label">Примітки</label>
+            <input type="text" class="form-control" id="inputNotes" />
+          </div>
+
+          <div>
+            <label for="objectPhoto"></label>
+            <input
+              type="file"
+              class="form-control"
+              id="objectPhoto"
+              accept="image/jpeg, image/png"
+            />
+          </div>
+          <div class="submit-button">
+            <button class="btn btn-dark" type="submit">Додати</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
