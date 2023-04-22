@@ -1,17 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт управління нерухомістю Моє майно</title>
-</head>
-<body>
-    <h1>Моє майно</h1>
-    <h2>Опис сайту</h2>
-    <div class="signin-login">
-<div class="signin">Увійти</div>
-<div class="login">Зареєструватись</div>
+    <title>My Home</title>
+    <link rel="stylesheet" href="src/registration.css">
+    <link rel="stylesheet" href="src/login.js">
+    <link rel="preconnect" href="http://fonts.googleapis.com ">
+    <link rel="preconnect" href="http://fonts.gstatic.com ">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap ">
+  </head>
+  <body>
+    <header>
+      <h1>My Home</h1>
+     <div> 
+        <nav>
+        <ul>
+          <li><a href="Увійти в кабінет">Увійти  в кабінет</a></li>
+          <li><a href="Зареєструватись">Зареєструватися</a></li>
+         
+         </ul>
+       </nav>
+     </div>
+   </header>
+   
+  <section id="about">
+        <h2>Про нас</h2>
+        <p class="text"> Приві.Це онлайн-інструмент для власників квартир , 
+            який допоможе вам організувати і керувати своєю власністю , збирати та організовувати різну інформацію.</p>
+      </section>
+      <section id="features">
+        <h2>Особливості</h2>
+        <ul>
+          <li>Можливість управлінням нерухомістю</li>
+          <li>Фідстежування статусів та  фінансофих операцій </li>
+          <li>Фідстежування інших додткових функцій 
+            для власників нерухомості</li>
+        </section>
+     <h3>Наші контакти</h3>
+      <div>
+        <p class="phone">+380928842169</p>
+        <p class="phone">+380925385384</p>
+      </div>  
+      <div>
+        <p>Залишились запитання:)?</p>
+        <label for="phone">Залиш номер телефону і ми тобі зателефонуємо:
+        </label>
+		<input placeholder="phone" type="tel" id="phone" name="phone">
+      </div>
+     
+  <div> 
+    <div class="button">
+        <a href="#" id="open_pop_up">Створити обліковий запис</a>
+      </div>
+      <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+         <div class="pop_up_body" id="pop_up_body">
+              <p>Введіть ваші дані</p>
+              <form action="">
+                <input type="text" placeholder="Ім'я">
+                <input type="text" placeholder="Прізвище">
+                <input type="tel"  placeholder="Телефон">
+                <input type="email" placeholder="Емейл">
+                <input type="password" placeholder="Пароль">
+                <button>Реєстрація</button> 
+               </form>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+          </div>
+        </div>
+      </div>
+      <script src="src/registration.js"></script>
+</div>
+<br><br>
+<div> 
+  <div class="button">
+    <a href="#" id="open_pop_up_2">Вхід</a>
+  </div>
+  <div class="pop_up" id="pop_up_2">
+    <div class="pop_up_container">
+      <div class="pop_up_body" id="pop_up_body_2">
+        <p>Введіть ваші дані</p>
+        <form action="">
+          <input type="tel"  placeholder="Телефон">
+          <input type="email" placeholder="Емайл">
+          <input type="password" placeholder="Пароль">
+          <button>Увійти</button> 
+        </form>
+        <div class="pop_up_close" id="pop_up_close_2">&#10006</div>
+      </div>
     </div>
-</body>
+  </div>
+  <script src="src/login.js"></script>
+</div>
+
+     
+  </body>
 </html>
+
