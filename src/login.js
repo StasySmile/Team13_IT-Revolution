@@ -1,4 +1,3 @@
-// Open the second pop-up
 const openPopUp2 = document.getElementById("open_pop_up_2");
 const popUp2 = document.getElementById("pop_up_2");
 const popUpBody2 = document.getElementById("pop_up_body_2");
@@ -8,7 +7,6 @@ openPopUp2.addEventListener("click", () => {
   popUp2.classList.add("active");
 });
 
-// Close the second pop-up
 popUpClose2.addEventListener("click", () => {
   popUp2.classList.remove("active");
 });

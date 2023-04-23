@@ -78,7 +78,7 @@ const checkPrice = () => {
 
 function sendJSON(data) {
   let xhr = new XMLHttpRequest();
-  let url = "";
+  let url = "/api/Estate/add";
 
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -109,5 +109,3 @@ form.addEventListener("submit", function (e) {
     handleFormSubmit();
   }
 });
-
-
