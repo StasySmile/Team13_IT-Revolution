@@ -24,3 +24,8 @@ a {
 .page-name {
   font-size: 20px;
 }
+
+.page-content {
+  width: 90%;
+  margin: 0 auto;
+}
